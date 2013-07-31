@@ -1,0 +1,36 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>postpaid</custOfferType>
+		<custMsisdn>06 76 70 83 98</custMsisdn>
+		<nextInvoiceDate>votre forfait arrivera à échéance le : 14/08/2013</nextInvoiceDate>
+	</customer>
+	<bundles>
+		<bundle overallDate="au 29/07/2013 à 10h59" displayGauge="0" id="1">
+			<title>Forfait Classique 1h</title>
+			<text>
+				<part type="1">vous avez consommé : 4min 17s</part>
+			</text>
+		</bundle>
+	</bundles>
+	<others>
+		<set type="1" date="au 14/07/2013 à 0h00">
+			<text>
+				<part type="1">Appels illimités vers 3n° Orange</part>
+			</text>
+			<text>
+				<part type="0">L'option mes 3 numéros préférés</part>
+				<part type="1">il vous reste : 01h 00min 00s</part>
+			</text>
+			<text>
+				<part type="0">SMS/MMS</part>
+				<part type="1">il vous reste : 30 sms</part>
+				<part type="2">soit 30 mms</part>
+			</text>
+		</set>
+	</others>
+	<over/>
+</ampresponse>

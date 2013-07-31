@@ -1,0 +1,28 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>prepaid</custOfferType>
+		<custMsisdn>07 86 00 00 26</custMsisdn>
+		<msisdnValidityDate>Numéro valide jusqu'au 08/02/2014</msisdnValidityDate>
+	</customer>
+	<bundles>
+		<bundle overallDate="au 29/07/2013 à 12h05" displayGauge="0" id="1">
+			<title>Mobicarte</title>
+			<text>
+				<part type="1">il vous reste : 17,63 euros</part>
+				<part type="2">soit 35min 15s ou 146 sms</part>
+				<part type="3">crédit utilisable jusqu'au 06/08/2013</part>
+			</text>
+		</bundle>
+	</bundles>
+	<others>
+		<set type="2">
+			<text>
+				<part type="1">vous ne bénéficiez pas de bonus ce mois-ci </part>
+			</text>
+		</set>
+	</others>
+</ampresponse>

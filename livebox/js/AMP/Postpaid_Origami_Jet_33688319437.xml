@@ -1,0 +1,90 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>postpaid</custOfferType>
+		<custMsisdn>06 88 31 94 37</custMsisdn>
+		<nextInvoiceDate>votre date de facturation est le : 02/08/2013</nextInvoiceDate>
+		<surcharge label="hors forfait">
+			<value date="au 29/07/2013 à 3h45">vos consommations hors forfait s'élevaient à 13,22 euros</value>
+		</surcharge>
+	</customer>
+	<bundles>
+		<bundle date="au 29/07/2013 à 3h45" displayGauge="0" id="1">
+			<title>Forfait jet France 4G/H+</title>
+		</bundle>
+		<bundle date="au 28/07/2013 à 14h05" displayGauge="1" id="2">
+			<title>Internet mobile</title>
+			<gauge boundary="100">
+				<credit label="seuil avant réduction du débit:" type="1">
+					<format label="Go" type="4">
+						<value>5 Go</value>
+					</format>
+				</credit>
+				<credit part="5" label="consommé" type="2">
+					<format label="Mo" type="4">
+						<value>281 Mo</value>
+					</format>
+				</credit>
+				<credit part="95" label="reste" type="3">
+					<format label="Go" type="4">
+						<value>4,73 Go</value>
+					</format>
+				</credit>
+				<credit label="" type="4">
+					<format label="Go" type="4">
+						<value/>
+					</format>
+				</credit>
+			</gauge>
+		</bundle>
+	</bundles>
+	<others>
+		<set type="1" date="au 22/07/2013 à 10h10">
+			<text>
+				<part type="1">Option SMS/MMS illimité</part>
+			</text>
+			<text>
+				<part type="1">Mail Blackberry illimités</part>
+			</text>
+		</set>
+	</others>
+	<over>
+		<date>au 29/07/2013 à 3h45</date>
+		<globalOverPrice>13,22</globalOverPrice>
+		<categoriesOver>
+			<categoryOver name="tÃ©lÃ©phone mobile" type="M_4">
+				<label>dÃ©tails de vos communications depuis votre tÃ©lÃ©phone mobile</label>
+				<categoryOverPrice>13,22</categoryOverPrice>
+				<overFrom>
+					<label>depuis la France métropolitaine</label>
+					<overFromType id="N03">
+						<name>sms/mms</name>
+						<quantity>1</quantity>
+						<price>0,28</price>
+					</overFromType>
+				</overFrom>
+				<overFrom>
+					<label>depuis l'étranger et l'Outre - Mer</label>
+					<overFromType id="R01">
+						<name>appels mobile</name>
+						<quantity>1075</quantity>
+						<price>1,85</price>
+					</overFromType>
+					<overFromType id="R02">
+						<name>sms/mms</name>
+						<quantity>25</quantity>
+						<price>2,39</price>
+					</overFromType>
+					<overFromType id="R03">
+						<name>internet mobile</name>
+						<quantity>16899</quantity>
+						<price>8,69</price>
+					</overFromType>
+				</overFrom>
+			</categoryOver>
+		</categoriesOver>
+	</over>
+</ampresponse>

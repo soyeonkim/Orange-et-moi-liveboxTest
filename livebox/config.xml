@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/OrangeEtMoi" version="1.0.0" viewmodes="maximized">
+   <access origin="http://qualifweb-orrm.aw.atosorigin.com:17060" subdomains="true"/>
+    <access origin="http://qualifweb-orrm.aw.atosorigin.com" subdomains="true"/>
+    <access origin="http://qualifweb-orrm.aw.atosorigin.com:16000" subdomains="true"/>
+    <access origin="http://mobile.orange.fr" subdomains="true"/>
+    <access origin="http://qlf-ampfr.orange.fr" subdomains="true"/>
+    <access origin="http://ampfr.orange.fr" subdomains="true"/>
+    <access origin="*" subdomains="true"/>
+    <tizen:app-widget id="35nXDTJlnO.OrangeEtMoi.default" primary="true" auto-launch="true" update-period="1800.0">
+		<tizen:box-label>Orange et moi</tizen:box-label>
+		<tizen:box-icon src="icon.png"/>
+		<tizen:box-content src="livebox/index.html">
+			<tizen:box-size preview="livebox/img/1x1icon.png">1x1</tizen:box-size>
+			<tizen:box-size preview="livebox/img/2x1icon.png">2x1</tizen:box-size>
+			<tizen:box-size preview="livebox/img/2x2icon.png">2x2</tizen:box-size>
+		</tizen:box-content>
+    </tizen:app-widget>
+    <tizen:application id="35nXDTJlnO.OrangeEtMoi" package="35nXDTJlnO" required_version="1.0"/>
+    <author>Orange France SA</author>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <name>Orange et moi</name>
+    <tizen:privilege name="http://tizen.org/privilege/tizen"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+    <tizen:privilege name="http://tizen.org/privilege/systeminfo"/>
+	<tizen:setting screen-orientation="portrait" context-menu="disable" background-support="disable" encryption="disable" install-location="auto"/>
+
+</widget>

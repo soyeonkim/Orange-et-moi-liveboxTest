@@ -1,0 +1,22 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>entreprise</custOfferType>
+		<custMsisdn>07 86 13 65 75</custMsisdn>
+		<nextInvoiceDate>crédit utilisable jusqu'au 31/07/2013 inclus</nextInvoiceDate>
+	</customer>
+	<bundles>
+		<bundle overallDate="au 29/07/2013 à 6h48" displayGauge="0" id="1">
+			<title>Forfait entreprise optima</title>
+			<text>
+				<part type="1">vous avez consommé : 00h 00min 00s</part>
+				<part type="2">le meilleur choix avec optima est un forfait 00h 00min 00s soit 6,00 euros.</part>
+			</text>
+		</bundle>
+	</bundles>
+	<others/>
+	<over/>
+</ampresponse>

@@ -1,0 +1,68 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>entreprise</custOfferType>
+		<custMsisdn>06 43 59 94 95</custMsisdn>
+		<nextInvoiceDate>crédit utilisable jusqu'au 31/07/2013 inclus</nextInvoiceDate>
+	</customer>
+	<bundles>
+		<bundle date="au 29/07/2013 à 7h38" displayGauge="0" id="1">
+			<title>Forfait entreprise optima</title>
+			<text>
+				<part type="1">vous avez consommé : 00h 00min 00s</part>
+				<part type="2">le meilleur choix avec optima est un forfait 02h 00min 00s soit 42,22 euros.</part>
+			</text>
+		</bundle>
+		<bundle displayGauge="1" id="2">
+			<title>Solde forfait SMS</title>
+			<gauge boundary="100">
+				<credit label="vous disposiez initialement de" type="1">
+					<format label="sms" type="3">
+						<value>100 sms</value>
+					</format>
+				</credit>
+				<credit part="10" label="consommé" type="2">
+					<format label="sms" type="3">
+						<value>10 sms</value>
+					</format>
+				</credit>
+				<credit part="90" label="reste" type="3">
+					<format label="sms" type="3">
+						<value>90 sms</value>
+					</format>
+				</credit>
+				<credit label="" type="4">
+					<format label="sms" type="3">
+						<value>100 sms</value>
+					</format>
+				</credit>
+			</gauge>
+		</bundle>
+		<bundle displayGauge="0" id="3">
+			<title>Conso MMS</title>
+			<text>
+				<part type="1">vous avez consommé : 0 mms</part>
+				<part type="3">Date de fin d'utilisation : 31/07/2013</part>
+			</text>
+		</bundle>
+		<bundle displayGauge="0" id="4">
+			<title>Forfait wifi hotspots Orange</title>
+			<text>
+				<part type="1">vous avez consommé : 00h 00min 00s</part>
+				<part type="3">Date de fin d'utilisation : 31/07/2013</part>
+			</text>
+		</bundle>
+		<bundle displayGauge="0" id="5">
+			<title>Solde forfait data illimité </title>
+			<text>
+				<part type="1">vous avez consommé : 32 Mo</part>
+				<part type="3">Date de fin d'utilisation : 31/07/2013</part>
+			</text>
+		</bundle>
+	</bundles>
+	<others/>
+	<over/>
+</ampresponse>

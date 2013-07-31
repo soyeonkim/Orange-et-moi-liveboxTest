@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta id="myViewport" name="viewport" content="">
+<script>
+var viewport = document.getElementById("myViewport");
+viewport.setAttribute("content", "width=" + window.outerWidth + ", user-scalable=no");
+</script>
+<title>Orange et moi</title>
+<link rel="stylesheet" type="text/css" href="css/livebox.css">
+</head>
+<body>
+
+<div id="widget175x175view" class="page_175x175 round_corners hidden">
+	<div class="circle"></div>
+	<p class="orangemoi">Orange et moi</p>
+</div>
+<div id="widget354x175view" class="page_354x175 hidden">
+	<div class="content round_corners">
+		<div>
+			<div class="gauge"></div>
+			<div class="option">
+				<div class="circle"></div>
+				<div class="lines">
+					<div id ="title" class="optionName textShadow">loading...</div>
+					<div class="orangemoi textShadow">Orange et moi</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="widget354x354view" class="page_354x354 hidden">
+	<div class="content round_corners">
+		<div id="gaugebindingpoint2x2">
+			<div class="gauge"></div>
+		</div>
+		<div class="option">
+			<div id ="title" class="optionName textShadow">loading...</div>
+		</div>
+		<div class="footer">
+			<div class="circle"></div>
+			<div class="orangemoi">
+				<p>Orange et moi</p>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- external libs -->
+
+<script type="text/javascript" src="../lib/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../lib/jquery.xml2json.js"></script>
+    <!-- 
+<script type="text/javascript" src="../lib/underscore.js"></script>
+<script type="text/javascript" src="../lib/backbone.js"></script>
+<script type="text/javascript" src="../lib/fastclick.js"></script>
+<script type="text/javascript" src="../lib/handlebars-1.0.rc.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>   
+     -->
+<!-- router 
+<script type="text/javascript" src="js/router.js"></script> 
+-->
+<!-- utilities -->
+<script type="text/javascript" src="../app/platform.js"></script>
+
+<!-- models -->
+<!-- views -->
+    <!-- 
+<script type="text/javascript" src="../app/models/suiviconsomodel.js"></script>
+<script type="text/javascript" src="../app/models/initmodel.js"></script>
+<script type="text/javascript" src="../app/models/visualgaugemodel.js"></script>
+<script type="text/javascript" src="../app/models/basicgaugemodel.js"></script>
+<script type="text/javascript" src="../app/models/billsmodel.js"></script>
+     -->
+<!-- views -->
+    <!--  
+<script type="text/javascript" src="../app/views/inittestview.js"></script>
+<script type="text/javascript" src="../app/views/test.js"></script>
+<script type="text/javascript" src="views/visualgaugeview.js"></script>
+<script type="text/javascript" src="views/widgetview175x175.js"></script>
+<script type="text/javascript" src="views/widgetview354x175.js"></script>
+<script type="text/javascript" src="views/widgetview354x354.js"></script>
+     -->
+<script type="text/javascript" src="js/widget.js"></script>
+
+<!-- main app after all other things -->
+    <!--    
+<script type="text/javascript" src="js/main.js"></script>   
+     -->
+
+
+<script type="text/javascript" src="js/widgetMain.js"></script>
+<script type="text/javascript" src="js/widgetPlatform.js"></script>
+<script type="text/javascript" src="js/models/widgetInitModel.js"></script>
+<script type="text/javascript" src="js/models/widgetSuiviconsomodel.js"></script>
+<script type="text/javascript" src="js/models/widgetVisualgaugemodel.js"></script>
+<script type="text/javascript" src="js/models/widgetBasicgaugeModel.js"></script>
+
+    <!-- 
+<script id="gaugetemplate" type="text/x-handlebars-template">
+	<div class="gauge"></div>
+</script>
+
+<script id="gaugetemplate2x1" type="text/x-handlebars-template">
+			<div class="gauge"></div>
+			<div class="option">
+				<div class="circle"></div>
+				<div class="lines">
+					<div class="optionName textShadow">{{title.0.text}}</div>
+					<div class="orangemoi textShadow">Orange et moi</div>
+				</div>
+			</div>
+</script>
+
+<script id="gaugetemplate2x2" type="text/x-handlebars-template">
+			<div class="gauge"></div>
+			<div class="option">
+				<div class="optionName textShadow">{{title.0.text}}</div>
+			</div>
+</script>
+
+<script id="widget175x175template" type="text/x-handlebars-template">
+	<div class="circle"></div>
+	<p class="orangemoi">Orange et moi</p>
+</script>
+
+<script id="widget354x175template" type="text/x-handlebars-template">
+	<div class="content round_corners">
+		<div id="gaugebindingpoint2x1">
+			<div class="gauge"></div>
+			<div class="option">
+				<div class="circle"></div>
+				<div class="lines">
+					<div class="optionName textShadow">{{title.0.text}}</div>
+					<div class="orangemoi textShadow">Orange et moi</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id="widget354x354template" type="text/x-handlebars-template">
+	<div class="content round_corners">
+		<div id="gaugebindingpoint2x2">
+			<div class="gauge"></div>
+			<div class="option">
+				<div class="optionName textShadow">{{title.0.text}}</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="circle"></div>
+			<div class="orangemoi">
+				<p>Orange et moi</p>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</script>
+-->
+</body>
+</html>

@@ -1,0 +1,96 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>postpaid</custOfferType>
+		<custMsisdn>06 17 89 01 55</custMsisdn>
+		<nextInvoiceDate>crédit utilisable jusqu'au 02/08/2013 inclus</nextInvoiceDate>
+	</customer>
+	<bundles>
+		<bundle date="au 29/07/2013 à 11h10" displayGauge="1" id="1">
+			<title>Forfait Origami star </title>
+			<gauge boundary="50">
+				<credit label="vous disposiez initialement de" type="1">
+					<format label="temps" type="1">
+						<value>04h 00min 00s</value>
+					</format>
+				</credit>
+				<credit part="6" label="consommé" type="2">
+					<format label="temps" type="1">
+						<value>15min 54s</value>
+					</format>
+				</credit>
+				<credit part="94" label="reste" type="3">
+					<format label="temps" type="1">
+						<value>03h 44min 06s</value>
+					</format>
+				</credit>
+				<credit label="voix" type="4">
+					<format label="temps" type="1">
+						<value>02h 00min 00s</value>
+					</format>
+				</credit>
+				<credit label="report" type="5">
+					<format label="temps" type="1">
+						<value>02h 00min 00s</value>
+					</format>
+				</credit>
+			</gauge>
+		</bundle>
+		<bundle date="au 29/07/2013 à 12h14" displayGauge="1" id="2">
+			<title>internet 500Mo</title>
+			<gauge boundary="100">
+				<credit label="vous disposiez initialement de" type="1">
+					<format label="Mo" type="4">
+						<value>501 Mo</value>
+					</format>
+				</credit>
+				<credit part="7" label="consommé" type="2">
+					<format label="Mo" type="4">
+						<value>36 Mo</value>
+					</format>
+				</credit>
+				<credit part="93" label="reste" type="3">
+					<format label="Mo" type="4">
+						<value>465 Mo</value>
+					</format>
+				</credit>
+				<credit label="" type="4">
+					<format label="Mo" type="4">
+						<value>501 Mo</value>
+					</format>
+				</credit>
+			</gauge>
+		</bundle>
+	</bundles>
+	<others>
+		<set type="1" date="au 29/07/2013 à 2h59">
+			<text>
+				<part type="0">option illimité partagé</part>
+				<part type="1">vous avez consommé : 00h 00min 00s</part>
+			</text>
+			<text>
+				<part type="1">Wifi illimité</part>
+			</text>
+			<text>
+				<part type="1">Orange Deezer premium +</part>
+			</text>
+			<text>
+				<part type="1">Option SMS/MMS illimité</part>
+			</text>
+			<text>
+				<part type="0">Option 1h tous réseaux soir et WE</part>
+				<part type="1">il vous reste : 45min 53s</part>
+			</text>
+			<text>
+				<part type="1">Mail Blackberry illimités</part>
+			</text>
+			<text>
+				<part type="1">Messagerie Vocale Visuelle illimitée</part>
+			</text>
+		</set>
+	</others>
+	<over/>
+</ampresponse>

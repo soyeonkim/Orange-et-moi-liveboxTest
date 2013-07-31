@@ -1,0 +1,76 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>postpaid</custOfferType>
+		<custMsisdn>06 50 09 53 85</custMsisdn>
+		<nextInvoiceDate>crédit utilisable jusqu'au 08/08/2013 inclus</nextInvoiceDate>
+	</customer>
+	<bundles>
+		<bundle date="au 27/07/2013 à 1h54" displayGauge="1" id="1">
+			<title>Forfait Sosh 2h 1Go</title>
+			<gauge boundary="64">
+				<credit label="vous disposiez initialement de" type="1">
+					<format label="temps" type="1">
+						<value>03h 06min 54s</value>
+					</format>
+				</credit>
+				<credit part="6" label="consommé" type="2">
+					<format label="temps" type="1">
+						<value>11min 41s</value>
+					</format>
+				</credit>
+				<credit part="94" label="reste" type="3">
+					<format label="temps" type="1">
+						<value>02h 55min 13s</value>
+					</format>
+				</credit>
+				<credit label="voix" type="4">
+					<format label="temps" type="1">
+						<value>02h 00min 00s</value>
+					</format>
+				</credit>
+				<credit label="report" type="5">
+					<format label="temps" type="1">
+						<value>01h 06min 54s</value>
+					</format>
+				</credit>
+			</gauge>
+		</bundle>
+		<bundle date="au 28/07/2013 à 14h05" displayGauge="1" id="2">
+			<title>Internet mobile</title>
+			<gauge boundary="100">
+				<credit label="seuil avant réduction du débit:" type="1">
+					<format label="Go" type="4">
+						<value>1 Go</value>
+					</format>
+				</credit>
+				<credit part="78" label="consommé" type="2">
+					<format label="Mo" type="4">
+						<value>802 Mo</value>
+					</format>
+				</credit>
+				<credit part="22" label="reste" type="3">
+					<format label="Mo" type="4">
+						<value>222 Mo</value>
+					</format>
+				</credit>
+				<credit label="" type="4">
+					<format label="Go" type="4">
+						<value/>
+					</format>
+				</credit>
+			</gauge>
+		</bundle>
+	</bundles>
+	<others>
+		<set type="1" date="au 08/07/2013 à 0h00">
+			<text>
+				<part type="1">Option SMS/MMS illimité</part>
+			</text>
+		</set>
+	</others>
+	<over/>
+</ampresponse>

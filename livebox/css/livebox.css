@@ -1,0 +1,190 @@
+/* common CSS */
+body {
+	margin: 3px;
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 26px;
+}
+
+.textShadow {
+	text-shadow: 2px 1px rgba(0,0,0,0.75);
+}
+
+.page_354x354, .page_354x175 {
+	width: 340px;
+	border-image: url(../img/grid_bg.9.png) 15 round round;
+	border-width: 4px;
+	border-color: #fff;
+	border-radius: 2px;
+	/*box-shadow: 1px -1px 7px #525c6d;*/
+	box-shadow: 0px 0px 5px #000000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(15%,#CCCCCC), color-stop(70%,#FFFFFF), color-stop(100%,#999999));
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 5px #000000 inset;
+}
+
+.gauge {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CA6000), color-stop(15%,#FF7900), color-stop(25%,#FF9535), color-stop(50%,#FF7900), color-stop(100%,#CA6000));
+	width: 0px;
+	border-top-left-radius: 4px;
+	box-shadow: 3px -1px 4px -2px #000000;
+}
+
+.page_354x175 .gaugeShadow {
+	box-shadow: 4px 0px 5px -3px #7d7f7f;
+}
+
+.page_354x354 .gaugeShadow {
+	box-shadow: 4px 5px 8px 0px #525c6d;
+}
+
+.page_354x354 .gauge {
+	height: 274px;
+}
+
+.page_354x175 .gauge {
+	height: 161px;
+	border-bottom-left-radius: 4px;
+}
+
+.page_354x175 .full {
+	border-radius: 4px;
+}
+
+.page_354x354 .full {
+	border-top-right-radius: 4px;
+}
+
+.option {
+	height: 73px;
+	margin-top: -73px;
+	background: rgba(0,0,0,0.7);
+}
+
+.page_354x354 .option {
+	padding-left: 5px;
+}
+
+.optionName {
+	width: 270px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.page_354x354 .optionName {
+	width: 330px;
+	line-height: 73px;
+}
+
+.page_354x175 .option {
+	border-bottom-left-radius: 4px;	
+	border-bottom-right-radius: 4px;
+}
+
+.circle {
+	height: 52px;
+	width: 52px;
+	border-radius: 26px;
+	background: black url('../../icon.png') no-repeat;
+	background-size: 52px;
+	background-position: 50%;
+}
+
+.lines {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.page_175x175 {
+	height: 148px;
+	margin: auto;
+	padding-top: 21px;
+	background: #cfcfcf;
+/*	box-shadow: 2px 2px 3px rgba(0,0,0,0.8);*/
+	box-shadow: 0px 0px 5px #000000;
+}
+
+.page_175x175 .circle {
+	margin: auto;
+	height: 106px;
+	width: 106px;
+	border-radius: 53px;
+	background-size: 106px;
+}
+
+.page_175x175 p {
+	text-align: center;
+	width: 159px;
+	height: 30px;
+	margin: auto;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-size: 23px;
+	font-family: "Helvetica Neue";
+	text-shadow: 0px 2px rgba(255,255,255,0.8);
+}
+
+.page_354x354 .circle {
+	margin: 8px;
+}
+
+.page_354x175 .circle {
+	margin-left: 8px;
+	margin-top: 6px;
+	display: inline-block;
+}
+
+.footer {
+	background-color: #ffffff;
+	width: 100%;
+	height: 73px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.footer .circle {
+	float: left;
+}
+
+.orangemoi {
+	font-size: 22px;
+}
+
+/*
+.orangemoi p {
+	margin: 0px;
+	height: 30px;
+}*/
+
+.page_354x175 .orangemoi {
+	color: #fff;
+}
+
+.page_354x354 .orangemoi {
+	line-height: 70px;
+	color: #585859;
+}
+
+.page_354x354 p {
+	margin: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+.round_corners {
+	border-radius: 4px;
+}
+
+.title {
+	font-weight: bold;
+	vertical-align: middle;
+}

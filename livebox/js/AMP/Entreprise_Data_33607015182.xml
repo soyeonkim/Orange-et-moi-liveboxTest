@@ -1,0 +1,33 @@
+<ampresponse action="suiviconsoomoi" module="homescreen">
+	<status>
+		<code>0</code>
+		<message>Tout est OK</message>
+	</status>
+	<customer>
+		<custOfferType>entreprise</custOfferType>
+		<custMsisdn>06 07 01 51 82</custMsisdn>
+		<nextInvoiceDate>crédit utilisable jusqu'au 31/07/2013 inclus</nextInvoiceDate>
+	</customer>
+	<bundles>
+		<bundle displayGauge="0" id="1">
+			<title>Offre data entreprise                  </title>
+			<text>
+				<part type="1"/>
+			</text>
+		</bundle>
+		<bundle displayGauge="0" id="2">
+			<title>Wifi illimité Orange      </title>
+			<text>
+				<part type="1">Wifi illimité Orange      </part>
+			</text>
+		</bundle>
+		<bundle displayGauge="0" id="3">
+			<title>pass jour illimité national data</title>
+			<text>
+				<part type="1">pass jour illimité national data</part>
+			</text>
+		</bundle>
+	</bundles>
+	<others/>
+	<over/>
+</ampresponse>
